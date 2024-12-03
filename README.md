@@ -1,9 +1,6 @@
 # Graph Out-Of-Distribution Detection
 
-We collect and organize the approaches on the challenge of graph OOD, explain the difference between OOD detection and OOD generalization, and additionally present some insights that are intended to provide some key references for researchers in this emerging field.
-
-1. We classify the existing methods for OOD detection into 4 categories: *Enhancement-based methods*, *Reconstruction-based methods*, *Propagation-based methods*, and *Classification-based methods*.
-
+We classify the existing methods for GOOD detection into 4 categories: **Enhancement-based methods**, **Reconstruction-based methods**, **Propagation-based methods**, and **Classification-based methods**.
 
 ## Summary of GOOD detection methods
 
