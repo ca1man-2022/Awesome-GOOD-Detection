@@ -1,8 +1,8 @@
-# Graph Out-Of-Distribution Detection
+# Graph Out-of-Distribution Detection
 
 We classify the existing methods for GOOD detection into 4 categories: **Enhancement-based methods** (Enha.), **Reconstruction-based methods** (Reco.), **Score Propagation methods** (Prop.), and **Classification-based methods** (Clas.).
 
-## Summary of GOOD detection methods
+## Summary of GOOD detection methods (theoretical articles should be listed separately).
 
 |  | Method         | Category  |                       Title                             |  Evaluation Metrics | Datasets   |Venue     | Paper Links  | Code Links  | Key Words   |  Task Type|
 |--| -------------- |-----------|-------------------------------------------------------- | ------------------- | -----------| -------- | ------------ | ----------- | ------------ | ----------- |
