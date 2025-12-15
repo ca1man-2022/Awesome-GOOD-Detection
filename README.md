@@ -2,7 +2,7 @@
 
 Graph machine learning has witnessed rapid growth, driving advancements across diverse domains. However, the in-distribution assumption, where training and testing data share the same distribution, often breaks in real-world scenarios, leading to degraded model performance under distribution shifts. This challenge has catalyzed interest in graph out-of-distribution (GOOD) detection, which focuses on identifying graph data that deviates from the distribution seen during training, thereby enhancing model robustness. In this paper, we provide a rigorous definition of GOOD detection and systematically categorize existing methods into four types: enhancement-based, reconstruction-based, information propagation-based, and classification-based approaches. We analyze the principles and mechanisms of each approach and clarify the distinctions between GOOD detection and related fields, such as graph anomaly detection, outlier detection, and GOOD generalization. Beyond methodology, we discuss practical applications and theoretical foundations, highlighting the unique challenges posed by graph data. Finally, we discuss the primary challenges and propose future directions to advance this emerging field. 
 
-⭐The full text is available on arXiv: [Out-of-Distribution Detection on Graphs: A Survey](https://arxiv.org/pdf/2502.08105)
+⭐The paper is available on arXiv: [Out-of-Distribution Detection on Graphs: A Survey](https://arxiv.org/pdf/2502.08105).
 
 We categorize existing methods into four types: **Enhancement-based methods** (Enha.), **Reconstruction-based methods** (Reco.), **Information Propagation-based methods** (Prop.), and **Classification-based methods** (Clas.).
 👇
