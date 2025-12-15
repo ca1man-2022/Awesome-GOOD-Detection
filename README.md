@@ -42,3 +42,18 @@ We categorize existing methods into four types: **Enhancement-based methods** (E
 |30|GOLD|Enha.|GOLD: Graph Out-of-Distribution Detection via Implicit Adversarial Latent Generation | AUROC, FPR@95 |  Twitch, Arxiv, Cora, Amazon, Coauthor |ICLR'25 | [GOLD](https://openreview.net/pdf?id=y5einmJ0Yx)|https://github.com/DannyW618/GOLD | Generative Model | Node-Level |
 |31|DeGEM|Enha.|Decoupled Graph Energy-based Model for Node Out-of-Distribution Detection on Heterophilic Graphs | AUROC, FPR@95 |Twitch, Arxiv, ogbn-Cora, Amazon-Photo,  Chameleon, Actor, Cornell| ICLR'25| [DeGEM](https://openreview.net/pdf?id=NuVBI4wPMm) |- | Energy-Based Model | Node-Level |
 |32|EDBD|Prop.|Spreading Out-of-Distribution Detection on Graphs | AUROC, FPR@95 | Cora, Amazon-Photo, Amazon-Computers, Coauthor-CS | ICLR'25 | [EDBD](https://openreview.net/pdf?id=p1TBYyqy8v)|- | Energy-Based Model | Node-Level |
+
+🚩We will keep this repository updated. If we have missed any relevant work, please feel free to contact us by email tingyicai@zjnu.edu.cn.
+
+## Citation
+
+If you find this repository useful, please consider citing it:
+
+```bibtex
+@article{cai2025good-d,
+  title   = {Out-of-Distribution Detection on Graphs: A Survey},
+  author  = {Tingyi Cai and Yunliang Jiang and Yixin Liu and Ming Li and Changqin Huang and Shirui Pan},
+  journal = {arXiv preprint arXiv:2502.08105},
+  year    = {2025}
+}
+
