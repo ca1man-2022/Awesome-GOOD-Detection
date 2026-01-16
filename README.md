@@ -80,7 +80,7 @@ We categorize 39 (Jan. 2026) existing GOOD detection methods into four classes:
 |8 | LLM-GOOD | Few-Shot Graph Out-of-Distribution Detection with LLMs | ACC, AUROC, AUPR, FPR@95 |-| ECML PKDD'25| leverages large language models as weak annotators to reduce labeling cost | https://github.com/zhengtaoyao/LLM_GOOD | LLM-assisted; Zero-shot | Node |
 |9 | D2GO | Test-time Graph OOD Detection via Dynamic Dictionary Expansion and OOD Score Calibration | AUROC | - |MM'25| performs graph OOD detection via test-time construction and refinement of IND and OOD graphon dictionaries, and calibrates OOD scores through similarity-based discrimination.  | https://github.com/name-is-what/D2GO |  Boundary-aware calibration | Node |
 |10 |CGDO | Conformal Graph-level Out-of-distribution Detection with Adaptive Data Augmentation | AUROC, AUPR, FPR@95 | -|WWW'25|formulates graph-level OOD detection as a score-based classification problem, where aggregated non-conformity scores are calibrated via conformal prediction to provide rigorous false positive rate guarantees. | - |Conformal prediction| Graph|
-|11 |ML-EGNNs | Evidence-Based Out-of-Distribution Detection on Multi-Label Graphs | AUPR|- |SDM'25|predictS label-wise evidences via evidential GNNs and fusing them through joint belief, enabling effective uncertainty modeling and separation of OOD nodes from IND nodes. | -| Multi-label |Node|
+|11 |ML-EGNNs | Evidence-Based Out-of-Distribution Detection on Multi-Label Graphs | AUPR|- |SDM'25|predicts label-wise evidences via evidential GNNs and fusing them through joint belief, enabling effective uncertainty modeling and separation of OOD nodes from IND nodes. | -| Multi-label |Node|
 
 ---
 
