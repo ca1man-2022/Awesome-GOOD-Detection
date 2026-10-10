@@ -7,10 +7,10 @@ The paper v1 (2025) is available on arXiv: [Out-of-Distribution Detection on Gra
 ![camera-v1](https://github.com/ca1man-2022/Awesome-GOOD-Detection/blob/main/camera-v1.png)
 
 
-⭐**Catalogue snapshot:** October 2026 · **63 core detection methods** · **5 related references**.
+**Catalogue snapshot:** October 2026 · **63 core detection methods** · **5 related references**.
 
 
-## Version note
+## Version note⭐
 This repository catalogue has been expanded and reclassified for an ongoing survey revision. The linked 2025 arXiv manuscript reflects the earlier taxonomy; it has **not yet** been updated to match this README. Class assignments are editorial judgements based on each method's principal OOD-specific contribution.
 
 ---
@@ -129,7 +129,7 @@ These references are **included in the survey** in their respective discussions;
 
 ## Citation
 
-If you find this repository useful, please consider citing it⭐:
+If you find this repository useful, please consider citing it:
 
 ```bibtex
 @article{cai2025good-d,
