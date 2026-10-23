@@ -9,6 +9,8 @@ The paper v1 (2025) is available on arXiv: [Out-of-Distribution Detection on Gra
 
 **Catalogue snapshot:** October 2026 · **63 core detection methods** · **5 related references**.
 
+The paper v2 (2026) is coming soon.
+
 
 ## Version note⭐
 This repository catalogue has been expanded and reclassified for an ongoing survey revision. The linked 2025 arXiv manuscript reflects the earlier taxonomy; it has **not yet** been updated to match this README. Class assignments are editorial judgements based on each method's principal OOD-specific contribution.
