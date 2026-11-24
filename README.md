@@ -1,10 +1,10 @@
-# Graph Out-of-Distribution Detection (GOOD Detection) 
+# Graph Out-of-Distribution (GOOD) Detection
 
 This repository provides a comprehensive catalogue of research on **out-of-distribution (OOD) detection for graph-structured data**, i.e., *GOOD Detection (update: 20/11/2026)*.
 
 The paper v1 (2025) is available on arXiv: [Out-of-Distribution Detection on Graphs: A Survey](https://arxiv.org/pdf/2502.08105).
 
-![camera-v1](https://github.com/ca1man-2022/Awesome-GOOD-Detection/blob/main/camera-v1.png)
+![camera-v1](https://github.com/ca1man-2022/Awesome-GOOD-Detection/blob/main/camera-v2.png)
 
 
 **Catalogue snapshot:** November 2026 · **63 core detection methods** · **5 related references**.
