@@ -1,29 +1,35 @@
 # Graph Out-of-Distribution (GOOD) Detection
 
-This repository provides a comprehensive catalogue of research on **out-of-distribution (OOD) detection for graph-structured data**, i.e., *GOOD Detection (update: 20/11/2026)*.
+Graph out-of-distribution (GOOD) detection identifies nodes or graphs that fall outside the in-distribution (IND) population defined for a task. By flagging unfamiliar inputs, it helps systems decide when to defer automated decisions and seek further assessment.
 
-The paper v1 (2025) is available on arXiv: [Out-of-Distribution Detection on Graphs: A Survey](https://arxiv.org/pdf/2502.08105).
+This repository provides a comprehensive catalogue of GOOD detection research and accompanies our survey, **[Out-of-Distribution Detection on Graphs: A Survey](https://arxiv.org/pdf/2502.08105)**.
 
-![camera-v1](https://github.com/ca1man-2022/Awesome-GOOD-Detection/blob/main/camera-v2.png)
+## Updates
 
+- **November 2026** ✍️  
+  We have substantially revised and expanded the survey. This update includes a refined taxonomy, broader literature coverage, and deeper discussions of detection methods, evaluation, and future research directions.
 
-**Catalogue snapshot:** November 2026 · **63 core detection methods** · **5 related references**.
+![camera-v2](https://github.com/ca1man-2022/Awesome-GOOD-Detection/blob/main/camera-v2.png)
 
-The paper v2 (2026) is coming soon.
+⭐Contributions:
+- A comprehensive review and mechanism-based taxonomy.
+  
+- A comparison of method capabilities and evaluation settings.
 
-
-## Version note⭐
-This repository catalogue has been expanded and reclassified for an ongoing survey revision. The linked 2025 arXiv manuscript reflects the earlier taxonomy; it has **not yet** been updated to match this README. The six families and their subcategories follow the revised survey taxonomy. Class assignments reflect each method's principal OOD-specific contribution, rather than mutually exclusive sets of techniques; a method may use components associated with other families.
+- Controlled comparisons of detection behavior.
 
 ---
 
-## Core GOOD detection methods
+## Taxonomy
+
+We organize 63 core methods into six families according to their primary OOD discrimination mechanisms: 1️⃣representation shaping, 2️⃣IND distribution modeling, 3️⃣predictive evidence modeling, 4️⃣relational evidence modeling, 5️⃣IND--OOD boundary learning, and 6️⃣detection calibration.
+
 
 **Taxonomy overview:** Representation Shaping (22), IND Distribution Modeling (4), Predictive Evidence Modeling (8), Relational Evidence Modeling (11), IND–OOD Boundary Learning (15), and Detection Calibration (3). IND Distribution Modeling has no subcategories in the revised taxonomy.
 
 **Table conventions:** “Node” and “Graph” denote the detection target; **Node + Graph** means both are reported. The “Paper” link is omitted when the source table does not contain a verified URL. A missing link does not imply the paper is unavailable. 
 
-### Representation Shaping (22)
+### 1. Representation Shaping (22)
 
 | # | Method | Subcategory | Title | Year | Venue | Level | Paper |
 |---:|---|---|---|---:|---|---|---|
@@ -50,7 +56,7 @@ This repository catalogue has been expanded and reclassified for an ongoing surv
 | 21 | Feature norm regularization | Embedding Geometry | Feature norm-based regularization for robust out-of-distribution detection in graph neural networks | 2026 | Neurocomputing | Node (graph-level unverified) | [Paper](https://doi.org/10.1016/j.neucom.2026.134743) |
 | 22 | OSSC | Temporal Representation Learning | A Dynamic Variational Framework for Open-World Node Classification in Structured Sequences | 2022 | ICDM | Node | [Paper](https://shiruipan.github.io/publication/icdm-22-zhang/icdm-22-zhang.pdf) |
 
-### IND Distribution Modeling (4)
+### 2. IND Distribution Modeling (4)
 
 | # | Method | Title | Year | Venue | Level | Paper |
 |---:|---|---|---:|---|---|---|
@@ -59,7 +65,7 @@ This repository catalogue has been expanded and reclassified for an ongoing surv
 | 25 | EnergyDef | An Energy-centric Framework for Category-free Out-of-distribution Node Detection in Graphs | 2024 | KDD | Node | [Paper](https://dl.acm.org/doi/10.1145/3637528.3671939) |
 | 26 | DeGEM | Decoupled Graph Energy-based Model for Node Out-of-Distribution Detection on Heterophilic Graphs | 2025 | ICLR | Node | [Paper](https://proceedings.iclr.cc/paper_files/paper/2025/hash/c247c31884eda37a48330b9df5adb174-Abstract-Conference.html) |
 
-### Predictive Evidence Modeling (8)
+### 3. Predictive Evidence Modeling (8)
 
 | # | Method | Subcategory | Title | Year | Venue | Level | Paper |
 |---:|---|---|---|---:|---|---|---|
@@ -72,7 +78,7 @@ This repository catalogue has been expanded and reclassified for an ongoing surv
 | 33 | GeoEnergy | Energy Scores | Geometric Logit Decoupling for Energy-Based Graph Out-of-distribution Detection | 2025 | NeurIPS | Node | [Paper](https://papers.nips.cc/paper_files/paper/2025/hash/8bd9f3ae50e9e1230e483dda4873e710-Abstract-Conference.html) |
 | 34 | GLIP-OOD | Semantic Matching | GLIP-OOD: Zero-Shot Graph OOD Detection with Foundation Model | 2025 | arXiv:2504.21186 | Node | [Paper](https://arxiv.org/abs/2504.21186) |
 
-### Relational Evidence Modeling (11)
+### 4. Relational Evidence Modeling (11)
 
 | # | Method | Subcategory | Title | Year | Venue | Level | Paper |
 |---:|---|---|---|---:|---|---|---|
@@ -88,7 +94,7 @@ This repository catalogue has been expanded and reclassified for an ongoing surv
 | 44 | RAGNOR | Neighborhood Discrepancy | Refining Norms: A Post-hoc Framework for OOD Detection in Graph Neural Networks | 2025 | NeurIPS | Node / Graph | [Paper](https://papers.nips.cc/paper_files/paper/2025/hash/39fac857b4467e3ef4f358186bb07d81-Abstract-Conference.html) |
 | 45 | SpecGap | Spectral Filtering | SpectralGap: Graph-Level Out-of-Distribution Detection via Laplacian Eigenvalue Gaps | 2025 | IJCAI | Graph | [Paper](https://www.ijcai.org/proceedings/2025/584) |
 
-### IND–OOD Boundary Learning (15)
+### 5. IND–OOD Boundary Learning (15)
 
 | # | Method | Subcategory | Title | Year | Venue | Level | Paper |
 |---:|---|---|---|---:|---|---|---|
@@ -108,7 +114,7 @@ This repository catalogue has been expanded and reclassified for an ongoing surv
 | 59 | LECT | Synthetic Outlier Generation | LLM-Enhanced Energy Contrastive Learning for Out-of-Distribution Detection in Text-Attributed Graphs | 2026 | AAAI | Node | [Paper](https://ojs.aaai.org/index.php/AAAI/article/view/39611) |
 | 60 | SMUG | Meta-learning | SMUG: Sand Mixing for Unobserved Class Detection in Graph Few-Shot Learning | 2024 | WWW | Node | [Paper](https://dl.acm.org/doi/10.1145/3589334.3645466) |
 
-### Detection Calibration (3)
+### 6. Detection Calibration (3)
 
 | # | Method | Subcategory | Title | Year | Venue | Level | Paper |
 |---:|---|---|---|---:|---|---|---|
@@ -131,17 +137,17 @@ These references are **included in the survey** in their respective discussions;
 ---
 
 
-## Citation
+# Citation
 
-If you find this repository useful, please consider citing it:
+😃If you find this repository useful, please consider citing it:
 
 ```bibtex
 @article{cai2025good-d,
   title   = {Out-of-Distribution Detection on Graphs: A Survey},
-  author  = {Tingyi Cai and Yunliang Jiang and Yixin Liu and Ming Li and Changqin Huang and Shirui Pan},
+  author  = {Tingyi Cai and Yunliang Jiang and Yixin Liu and Zhonglong Zheng and Changqin Huang and Ming Li and Shirui Pan},
   journal = {arXiv preprint arXiv:2502.08105},
   year    = {2025}
 }
 ```
 
-**Last catalogue update:** 2026-11-20. **Preprint version:** arXiv v1 (2025); the revised survey is in preparation.
+**Last catalogue update:** 2026-11-25. **Preprint version:** arXiv v2 (2026).
