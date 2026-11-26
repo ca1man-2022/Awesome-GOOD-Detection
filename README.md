@@ -145,8 +145,9 @@ These references are **included in the survey** in their respective discussions;
 @article{cai2025good-d,
   title   = {Out-of-Distribution Detection on Graphs: A Survey},
   author  = {Tingyi Cai and Yunliang Jiang and Yixin Liu and Zhonglong Zheng and Changqin Huang and Ming Li and Shirui Pan},
-  journal = {arXiv preprint arXiv:2502.08105},
-  year    = {2025}
+  journal = {arXiv preprint arXiv:2502.08105v2},
+  year    = {2026},
+  url     = {https://arxiv.org/abs/2502.08105v2}
 }
 ```
 
