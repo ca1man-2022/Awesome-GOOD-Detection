@@ -2,7 +2,7 @@
 
 Graph out-of-distribution (GOOD) detection identifies nodes or graphs that fall outside the in-distribution (IND) population defined for a task. By flagging unfamiliar inputs, it helps systems decide when to defer automated decisions and seek further assessment.
 
-This repository provides a comprehensive catalogue of GOOD detection research and accompanies our survey, **[Out-of-Distribution Detection on Graphs: A Survey](https://arxiv.org/pdf/2502.08105)**.
+This repository provides a comprehensive catalogue of GOOD detection research and accompanies our survey, **[Out-of-Distribution Detection on Graphs: A Survey](https://arxiv.org/pdf/2502.08105v2)**.
 
 ## Updates
 
